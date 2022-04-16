@@ -1,4 +1,4 @@
-export KOPS_STATE_STORE="s3://kuberbuck"
+export KOPS_STATE_STORE="s3://kuber1.in"
   export MASTER_SIZE="t2.micro"
   export NODE_SIZE="t2.micro"
   export ZONES="us-east-1a"
