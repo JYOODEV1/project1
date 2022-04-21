@@ -15,7 +15,7 @@ spec:
         app.kubernetes.io/name: load-balancer-example
     spec:
       containers:
-      - image: http
+      - image: dcjyodev/tomcat
         name: hello-world
         ports:
         - containerPort: 8080
